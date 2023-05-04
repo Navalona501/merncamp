@@ -61,7 +61,7 @@ const Register = () => {
                         secret={secret}
                         setSecret={setSecret}
                         loading={loading}
-                        page="login"
+                        page="register"
                     />
 
                 </div>

@@ -22,6 +22,8 @@ const PORT = process.env.PORT || 8000;
 app.use('/api', auth);
 
 
+
+
 mongoose.connect(process.env.MONGODB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true

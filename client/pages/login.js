@@ -24,7 +24,8 @@ const Login = () => {
             setEmail("");
             setPassword("");
             setLoading(false);
-            Router.push("/");
+            // Router.push("/");
+            console.log(data);
         } catch (err) {
             toast.error(err.response.data);
         }
